@@ -18,15 +18,15 @@ config = configparser.ConfigParser()
 config.read('config.ini', encoding='utf-8')
 
 # 데이터 파일 만들기
-config["system"] = {}
-config["system"]["title"] = "제목"
-config["system"]["content"] = "내용(줄바꿈)내용"
-config["system"]["naver_id"] = "네이버 아이디"
-config["system"]["naver_pw"] = "네이버 비밀번호"
-config["system"]["naver_url"] = "네이버 카페 주소"
-config["system"]["board_number"] = "0"
-with open('config.ini', 'w', encoding='utf-8') as configfile:
-    config.write(configfile)
+# config["system"] = {}
+# config["system"]["title"] = "제목"
+# config["system"]["content"] = "내용(줄바꿈)내용"
+# config["system"]["naver_id"] = "네이버 아이디"
+# config["system"]["naver_pw"] = "네이버 비밀번호"
+# config["system"]["naver_url"] = "네이버 카페 주소"
+# config["system"]["board_number"] = "0"
+# with open('config.ini', 'w', encoding='utf-8') as configfile:
+#     config.write(configfile)
 
 # 글쓰기 제목 / 내용
 title = config["system"]["title"]

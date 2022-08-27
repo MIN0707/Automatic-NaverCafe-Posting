@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.options import Options
 # 데이터 파일
 config = configparser.ConfigParser()
 
-# 데이터 읽기
+# 데이터 읽기ddd
 config.read('config.ini', encoding='utf-8')
 
 # 데이터 파일 만들기
